@@ -52,7 +52,6 @@ class Banking
 {
     public static void main(String args[])
     {
-        
         int ch=0;
         Account a=new Account();
         Scanner sc =  new Scanner(System.in);
