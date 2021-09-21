@@ -62,6 +62,7 @@ class Banking
             System.out.print("choice:");
             ch = sc.nextInt();
             switch(ch)
+                    
             {
                 case 1: System.out.println("**your acoount is created**");break;
                 case 2: System.out.print("Enter amount for deposit:"); a.deposit(sc.nextDouble()); break;
